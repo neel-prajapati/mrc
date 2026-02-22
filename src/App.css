@@ -100,6 +100,11 @@ body {
   align-items: center;
   gap: 12px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-container a {
+  text-decoration: none;
 }
 
 .logo-icon {
@@ -495,7 +500,7 @@ body {
 }
 
 .badge-year {
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: var(--bg-dark);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -503,7 +508,7 @@ body {
 
 .badge-number {
   font-family: var(--font-display);
-  font-size: 1.8rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: var(--bg-dark);
 }
@@ -2333,7 +2338,7 @@ body {
   }
 
   .page-hero-content p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     padding: 0 10px;
   }
 
@@ -2544,6 +2549,10 @@ body {
 
   .page-hero-content h1 {
     font-size: 1.8rem;
+  }
+
+  .page-hero-content p {
+    font-size: 0.75rem;
   }
 
   /* Testimonials Small */
