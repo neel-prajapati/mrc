@@ -100,24 +100,15 @@ const Hero = () => {
   return (
     <section className="hero" id="home">
       <motion.div className="hero-bg" style={{ y }}>
+        <iframe
+          className="hero-video"
+          src="https://www.youtube.com/embed/Kv1vQyrEOyA?autoplay=1&mute=1&loop=1&playlist=Kv1vQyrEOyA&controls=0&showinfo=0&rel=0&disablekb=1&modestbranding=1&playsinline=1"
+          title="Background Video"
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        />
         <div className="hero-overlay"></div>
-        <div className="floating-elements">
-          {[...Array(6)].map((_, i) => (
-            <motion.div
-              key={i}
-              className={`float-element element-${i + 1}`}
-              animate={{
-                y: [0, -20, 0],
-                rotate: [0, 5, -5, 0],
-              }}
-              transition={{
-                duration: 4 + i,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-            />
-          ))}
-        </div>
       </motion.div>
 
       <motion.div className="hero-content" style={{ opacity }}>

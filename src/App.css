@@ -206,74 +206,31 @@ body {
   position: absolute;
   inset: 0;
   z-index: 0;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  min-width: 177.78vh; /* 16:9 aspect ratio */
+  min-height: 56.25vw; /* 16:9 aspect ratio */
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+  border: none;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
+  z-index: 1;
   background: 
-    radial-gradient(ellipse at 30% 20%, rgba(212, 168, 83, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 80%, rgba(139, 38, 53, 0.1) 0%, transparent 50%),
-    linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
-}
-
-.floating-elements {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-}
-
-.float-element {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.3;
-}
-
-.element-1 {
-  top: 10%;
-  left: 10%;
-  background: var(--color-primary);
-}
-
-.element-2 {
-  top: 60%;
-  right: 10%;
-  background: var(--color-accent);
-}
-
-.element-3 {
-  bottom: 20%;
-  left: 30%;
-  background: var(--color-primary-light);
-  width: 200px;
-  height: 200px;
-}
-
-.element-4 {
-  top: 40%;
-  right: 30%;
-  background: #6B4423;
-  width: 250px;
-  height: 250px;
-}
-
-.element-5 {
-  top: 20%;
-  right: 20%;
-  background: var(--color-primary);
-  width: 150px;
-  height: 150px;
-}
-
-.element-6 {
-  bottom: 30%;
-  right: 40%;
-  background: var(--color-accent);
-  width: 180px;
-  height: 180px;
+    linear-gradient(180deg, rgba(10, 10, 10, 0.7) 0%, rgba(10, 10, 10, 0.5) 40%, rgba(10, 10, 10, 0.8) 100%),
+    radial-gradient(ellipse at 30% 20%, rgba(212, 168, 83, 0.2) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(139, 38, 53, 0.15) 0%, transparent 50%);
 }
 
 .hero-content {
