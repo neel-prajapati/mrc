@@ -96,7 +96,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="cta-button nav-cta"
-          whileHover={{ scale: 1.05, backgroundColor: '#B8912E' }}
+          whileHover={{ scale: 1.05, backgroundColor: '#CCCCCC' }}
           whileTap={{ scale: 0.95 }}
         >
           Order Now

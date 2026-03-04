@@ -27,7 +27,7 @@ const HomePage = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <span>✨ Authentic Indian Chai & Street Food</span>
+          <span>✨ Australia's First Indian Tea Shop</span>
         </motion.div>
 
         <motion.h1
@@ -60,7 +60,7 @@ const HomePage = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button primary"
-            whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(212, 168, 83, 0.4)" }}
+            whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(232, 232, 232, 0.25)" }}
             whileTap={{ scale: 0.95 }}
           >
             Order Now

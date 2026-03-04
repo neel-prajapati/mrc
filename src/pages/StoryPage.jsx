@@ -96,7 +96,7 @@ const StoryPage = () => {
           transition={{ duration: 0.8 }}
         >
           <span className="section-tag">What We Offer</span>
-          <h2>Adelaide's <span className="highlight">Late Night</span> Chai Destination</h2>
+          <h2>Australia's <span className="highlight">First Indian</span> Tea Shop</h2>
         </motion.div>
 
         <div className="values-grid">

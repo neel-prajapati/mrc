@@ -134,13 +134,13 @@ const MenuPage = () => {
                   </div>
                   <p>{item.desc}</p>
                 </div>
-                <motion.button 
+                {/* <motion.button 
                   className="add-btn"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
                   +
-                </motion.button>
+                </motion.button> */}
               </motion.div>
             ))}
           </motion.div>

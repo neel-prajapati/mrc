@@ -72,7 +72,7 @@ const VisitPage = () => {
               <h3>Hindmarsh</h3>
               <div className="info-row">
                 <span className="info-icon">📍</span>
-                <p>162 Port Rd, Hindmarsh SA 5007</p>
+                <p>164 Port Rd, Hindmarsh SA 5007</p>
               </div>
               <div className="info-row">
                 <span className="info-icon">📞</span>
@@ -83,7 +83,7 @@ const VisitPage = () => {
                 <p>Open Daily: 5PM - 5AM</p>
               </div>
               <motion.a 
-                href="https://www.google.com/maps/dir//162+Port+Rd,+Hindmarsh+SA+5007"
+                href="https://www.google.com/maps/dir//164+Port+Rd,+Hindmarsh+SA+5007"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-button secondary location-btn"
@@ -248,7 +248,7 @@ const VisitPage = () => {
           {[
             { icon: "📧", label: "Email", value: "Bhagyeshthakar@gmail.com", link: "mailto:Bhagyeshthakar@gmail.com" },
             { icon: "📞", label: "Phone", value: "0422 372 222", link: "tel:0422372222" },
-            { icon: "📍", label: "Address", value: "162 Port Rd, Hindmarsh SA 5007", link: "https://www.google.com/maps/dir//162+Port+Rd,+Hindmarsh+SA+5007" },
+            { icon: "📍", label: "Address", value: "164 Port Rd, Hindmarsh SA 5007", link: "https://www.google.com/maps/dir//164+Port+Rd,+Hindmarsh+SA+5007" },
           ].map((method, i) => (
             <motion.a
               key={i}
@@ -283,7 +283,7 @@ const VisitPage = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="social-btn-large"
-              whileHover={{ scale: 1.1, backgroundColor: '#D4A853' }}
+              whileHover={{ scale: 1.1, backgroundColor: '#E8E8E8' }}
               whileTap={{ scale: 0.95 }}
             >
               Facebook

@@ -9,7 +9,7 @@ const Footer = () => {
             <span className="logo-icon">🍵</span>
             <span className="logo-text">Mr. Chaiwala</span>
           </Link>
-          <p>Adelaide's late night chai destination. Open 5PM - 5AM daily.</p>
+          <p>Australia's first Indian tea shop. Open 5PM - 5AM daily.</p>
         </div>
 
         <div className="footer-links">
@@ -38,8 +38,8 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2024 Mr. Chaiwala. All rights reserved.</p>
-        <p>162 Port Rd, Hindmarsh SA 5007</p>
+        <p>© {new Date().getFullYear()} Mr. Chaiwala. All rights reserved.</p>
+        <p>164 Port Rd, Hindmarsh SA 5007</p>
       </div>
     </footer>
   )
